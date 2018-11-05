@@ -15,15 +15,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #0884FF;
 }
 
 a:hover {
-  color: #fec503;
+  color: #006ad4;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #0884FF !important;
 }
 
 h1,
@@ -72,13 +72,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #0884FF;
+  border-color: #0884FF;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #0071e1 !important;
+  border-color: #0071e1 !important;
   color: white;
 }
 
@@ -88,12 +88,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #0884FF;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #0884FF;
   text-shadow: none;
 }
 
@@ -120,17 +120,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #0884FF;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: #0884FF;
+  font-family: 'Montserrat-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #006ad4;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -143,7 +143,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #0884FF;
 }
 
 @media (min-width: 992px) {
@@ -231,6 +231,10 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+#services {
+  background-color: white;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -251,7 +255,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(8, 132, 255, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -388,6 +392,10 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+#about {
+  background-color: white;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -453,7 +461,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #0884FF;
 }
 
 .timeline > li .timeline-image h4 {
@@ -624,7 +632,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #0884FF;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -692,5 +700,96 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #0884FF;
+}
+
+section.features {
+  background-color: white;
+}
+
+section.features .section-heading {
+  margin-bottom: 100px;
+}
+
+section.features .section-heading h2 {
+  margin-top: 0;
+}
+
+section.features .section-heading p {
+  margin-bottom: 0;
+}
+
+section.features .device-container,
+section.features .feature-item {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+section.features .device-container {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  section.features .device-container {
+    margin-bottom: 0;
+  }
+}
+
+section.features .feature-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+section.features .feature-item h3 {
+  font-size: 30px;
+}
+
+section.features .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-primary {
+  background: #0884FF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0884FF), to(#0077ee));
+  background: linear-gradient(#0884FF, #0077ee);
+}
+
+.text-primary {
+  color: #0884FF;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  border-color: #0884FF;
+  background-color: #0884FF;
+}
+
+.btn {
+  border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
 }
