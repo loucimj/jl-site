@@ -9,11 +9,10 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   .intro-text {
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     .intro-lead-in {
-      font-size: 22px;
-      font-style: bold;
+      font-size: 18px;
       line-height: 22px;
       margin-bottom: 25px;
       @include normal-font;
@@ -22,7 +21,7 @@ header.masthead {
       font-size: 50px;
       font-weight: 700;
       font-style: bold;
-      line-height: 50px;
+      line-height: 40px;
       margin-bottom: 25px;
       @include heading-font;
     }
@@ -35,8 +34,7 @@ header.masthead {
       padding-bottom: 80px;
       .intro-lead-in {
         text-align: left;
-        font-size: 40px;
-        font-style: bold;
+        font-size: 30px;
         line-height: 40px;
         margin-bottom: 25px;
         @include normal-font;
@@ -47,7 +45,8 @@ header.masthead {
         font-weight: 700;
         font-style: bold;
         line-height: 75px;
-        margin-bottom: 50px;
+        margin-top: 70px;
+        margin-bottom: 30px;
         @include heading-font;
       }
     }
