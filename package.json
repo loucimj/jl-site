@@ -1,8 +1,8 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
+    "title": "Javier's Portfolio",
+    "name": "jl-site",
     "version": "5.0.2",
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "description": "This is my portfolio",
     "keywords": [
         "css",
         "sass",
@@ -40,5 +40,9 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.1",
         "gulp-uglify": "3.0.1"
+    },
+    "scripts": {  
+        "start": "node index.js"
     }
+
 }

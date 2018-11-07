@@ -8,13 +8,17 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  .avatar {
+    padding-top: 00px;
+    padding-bottom: 00px;
+  }
   .intro-text {
     padding-top: 60px;
     padding-bottom: 20px;
     .intro-lead-in {
       font-size: 18px;
       line-height: 22px;
-      margin-bottom: 25px;
+      margin-bottom: 0px;
       @include normal-font;
     }
     .intro-heading {
@@ -29,7 +33,11 @@ header.masthead {
 }
 @media(min-width:768px) {
   header.masthead {
-    .intro-text {
+      .avatar {
+        padding-top: 100px;
+        padding-bottom: 80px;
+      }
+      .intro-text {
       padding-top: 100px;
       padding-bottom: 80px;
       .intro-lead-in {
