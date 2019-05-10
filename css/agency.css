@@ -769,6 +769,78 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+header.bookmarker {
+  text-align: center;
+  color: #454F63;
+  background-color: #f1f1f1;
+  background-image: url("../img/apps/abastract3-new@2x.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.bookmarker .intro-text {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+header.bookmarker .intro-text .intro-lead-in {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+header.bookmarker .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 56px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+header.bookmarker .store-icons {
+  padding-top: 20px;
+  width: 60%;
+  min-height: 98px;
+  min-width: auto;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  header.bookmarker .main-image {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  header.bookmarker .intro-text {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding-top: 0px;
+    padding-bottom: 00px;
+  }
+  header.bookmarker .intro-text .intro-lead-in {
+    text-align: right;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  header.bookmarker .intro-text .intro-heading {
+    text-align: right;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 55px;
+    margin-top: 00px;
+    margin-bottom: 30px;
+    font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+}
+
 header.vts {
   text-align: center;
   color: white;
