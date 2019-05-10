@@ -1,3 +1,64 @@
+
+header.vts {
+  text-align: center;
+  color: white;
+  background-color: lighten( #5528FF,0%);
+  background-image: url('../img/apps/abastract5@2x.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  .intro-text {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    .intro-lead-in {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 25px;
+      @include normal-font;
+    }
+    .intro-heading {
+      font-size: 50px;
+      font-weight: 700;
+      font-style: bold;
+      line-height: 56px;
+      margin-bottom: 25px;
+      @include heading-font;
+    }
+  }
+}
+@media(min-width:768px) {
+  header.vts {
+      .main-image {
+          float: left;
+          padding-top: 0px;
+          padding-bottom: 0px;
+      }
+    .intro-text {
+      align-items: flex-end;
+      padding-top: 0px;
+      padding-bottom: 00px;
+      .intro-lead-in {
+        text-align: right;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0px;
+        @include normal-font;
+      }
+      .intro-heading {
+        text-align: right;
+        font-size: 45px;
+        font-weight: 700;
+        font-style: bold;
+        line-height: 55px;
+        margin-top: 00px;
+        margin-bottom: 30px;
+        @include normal-font;
+      }
+    }
+  }
+}
+
 header.ont {
     text-align: center;
     color: #343434;
@@ -86,7 +147,7 @@ header.ont {
     }
   }
   @media(min-width:768px) {
-    header.there {
+    header.be-there {
         .main-image {
             float: left;
             padding-top: 0px;
